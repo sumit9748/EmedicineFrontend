@@ -1,0 +1,17 @@
+.basicCompo {
+  display: flex;
+  justify-content: space-around;
+  cursor: pointer;
+  margin-top: 40px;
+}
+
+.home_medicineContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+}
+.home {
+  margin-top: 30px;
+  padding: 40px;
+}

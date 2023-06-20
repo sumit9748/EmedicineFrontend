@@ -1,0 +1,33 @@
+.basicComponent {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  padding: 4px;
+}
+.basicComponent_top {
+  flex: 1;
+  width: 100%;
+}
+.basicComponent_bottom {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.basicComponent > h3 {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  color: white;
+  color: black;
+}
+
+.basicComponent_top > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+.basicComponent > img:hover {
+  opacity: 0.7;
+  background-color: azure;
+}
